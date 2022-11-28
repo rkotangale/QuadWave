@@ -119,7 +119,7 @@
 							<%
 							String url = "jdbc:mysql://localhost:3306/quadwave";
 							String username = "root";
-							String password = "Rajat#123#";
+							String password = "#@34#";
 							String sql = "select * from employee";
 							Class.forName("com.mysql.jdbc.Driver");
 							Connection con = DriverManager.getConnection(url, username, password);
