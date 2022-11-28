@@ -8,7 +8,7 @@
 	PrintWriter out1 = response.getWriter();
 	String url = "jdbc:mysql://localhost:3306/quadwave";
    	String username = "root";
-   	String password = "Rajat#123#";
+   	String password = "#@#34";
    	try{
    		Class.forName("com.mysql.jdbc.Driver");
    		Connection con = DriverManager.getConnection(url,username,password);
